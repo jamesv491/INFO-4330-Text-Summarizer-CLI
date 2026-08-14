@@ -46,6 +46,6 @@ while True:
         print("\n\nDo you want to continue? To Exit Press Ctrl+C. To continue insert more text")
 
     except Exception as err:
-        print("ERROR", err)
+        print("ERROR. Press Ctrl+C to Exit\n", err)
 
    
