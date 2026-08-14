@@ -8,6 +8,7 @@ print("\n\nWelcome to the Text Summarizer. This Summarizer uses Gemini AI as its
       "\nPaste text below"
       "\nPress Ctrl+Z then Enter (Windows) or Ctrl+D (Mac/Linux) when done. To Exit Press Ctrl+C")
 
+# used a while loop to allow users to repeatedly insert multiple text
 while True:
 # try block to read user input from stdin
     try:
@@ -38,7 +39,7 @@ while True:
         )
 
 
-        summmaryNum += 1
+        summmaryNum += 1 # just a counter that was inputted so a user can see what number outputs they are in
         print("\n---------------------------------------------------------------------------------------")
         print(f"|                                   Summary Output {summmaryNum}                                  |")
         print("---------------------------------------------------------------------------------------")
